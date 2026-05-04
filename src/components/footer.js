@@ -1,13 +1,21 @@
-import data from "../../data.json";
+export default function footer() {
+  const now = new Date();
+  const currentHour = now.getHours();
+  const currentYear = now.getFullYear();
 
-export default function Footer() {
-  const year = new Date().getFullYear();
-  return /* HTML */ `
-    <footer class="mt-auto p-4">
-      <div class="mx-auto max-w-md">
-        <p class="text-center text-sm text-gray-500">
-          &copy; ${year}, ${data.alias}.
-        </p>
+  // Logika Status: STANDBY jika di atas jam 10 malam (22) atau sebelum jam 5 pagi
+  const status =
+    currentHour >= 22 || currentHour < 5
+      ? "STANDBY / NIGHT_MODE"
+      : "OPERATIONAL";
+
+  return `
+    <!-- FOOTER -->
+    <footer class="pt-8 border-t border-zinc-900">
+      <div
+        class="flex justify-between items-center text-[9px] text-zinc-700 tracking-[0.2em]">
+        <span>STATUS: ${status}</span>
+        <span>© ${currentYear} // EVAN RAFA</span>
       </div>
     </footer>
   `;
