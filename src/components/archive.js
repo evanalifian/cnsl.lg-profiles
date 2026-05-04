@@ -16,7 +16,7 @@ export default function archive() {
         </a>
 
         <!-- Link CV -->
-        <a href="#" class="group block border-b border-zinc-900 py-4 hover:border-zinc-400 transition-all">
+        <a href="/cv.pdf" class="group block border-b border-zinc-900 py-4 hover:border-zinc-400 transition-all">
             <div class="flex justify-between items-center">
                 <span class="text-sm tracking-tight text-zinc-300 group-hover:text-white uppercase font-bold">Curriculum_Vitae.pdf</span>
                 <span class="text-[10px] text-zinc-700 group-hover:text-white group-hover:translate-x-1 transition-all">→ FETCH</span>
