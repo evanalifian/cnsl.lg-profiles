@@ -15,7 +15,7 @@ export default function footer() {
       <div
         class="flex justify-between items-center text-[9px] text-zinc-700 tracking-[0.2em]">
         <span>STATUS: ${status}</span>
-        <span>© ${currentYear} // EVAN RAFA</span>
+        <span>© ${currentYear} // EVAN ALIFIAN</span>
       </div>
     </footer>
   `;
