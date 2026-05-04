@@ -7,25 +7,29 @@ export default function connect() {
       </h2>
       <div class="grid grid-cols-1 gap-4">
         <a
-          href="#"
+          href="https://instagram.com/evanalifian"
+          target="_blank"
           class="group flex items-center gap-4 text-xs text-zinc-500 hover:text-white transition-colors">
           <span class="w-8 h-px bg-zinc-900 line-grow"></span>
           INSTAGRAM
         </a>
         <a
-          href="#"
+          href="https://x.com/evanalifian"
+          target="_blank"
           class="group flex items-center gap-4 text-xs text-zinc-500 hover:text-white transition-colors">
           <span class="w-8 h-px bg-zinc-900 line-grow"></span>
           X
         </a>
         <a
-          href="#"
+          href="https://github.com/evanalifian"
+          target="_blank"
           class="group flex items-center gap-4 text-xs text-zinc-500 hover:text-white transition-colors">
           <span class="w-8 h-px bg-zinc-900 line-grow"></span>
           GITHUB
         </a>
         <a
-          href="#"
+          href="https://linkedin.com/in/evanalifian/"
+          target="_blank"
           class="group flex items-center gap-4 text-xs text-zinc-500 hover:text-white transition-colors">
           <span class="w-8 h-px bg-zinc-900 line-grow"></span>
           LINKEDIN
