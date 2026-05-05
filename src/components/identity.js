@@ -27,11 +27,10 @@ export default function identity() {
       </div>
 
       <p class="text-zinc-400 text-xs leading-relaxed max-w-[320px]">
-        Web Developer yang sedang mendalami
-        <span class="text-zinc-200">Text Preprocessing</span> menggunakan
-        <span class="text-zinc-200">Python</span>. Berfokus pada pengolahan
-        data tekstual mentah menjadi struktur yang siap untuk sistem informasi
-        dan pencarian.
+        Web Developer currently diving deep into
+        <span class="text-zinc-200">Text Preprocessing</span> using
+        <span class="text-zinc-200">Python</span>. Focused on transforming 
+        raw textual data into structured assets for information and retrieval systems.
       </p>
     </header>
   `;
